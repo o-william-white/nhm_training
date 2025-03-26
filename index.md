@@ -2,6 +2,10 @@
 layout: default
 ---
 
+# NHM Linux training
+
+This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analayses or work on the High Performatnce Computing facilities more effienctly.
+
 ### Contents
 
  - [What is Linux?](#what-is-linux)
