@@ -2,124 +2,46 @@
 layout: default
 ---
 
-[Header 6](#header-6)
+### Contents
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+ - [What is Linux?](#what-is-linux)
+ - [Linux Installation](#linux-installation)
+ - [Basic introduction to Linux](#basic-introduction-to-linux)
+   - [Windows](#windows)
+   - [Mac](#mac)
+ - [Installing tools](#installing-tools)
+ - [Accessing High Performance Computing (HPC) facilities](#accessing-high-performance-computing-hpc-facilities)
+ - [Using SLURM](#using-slurm)
+ - [Dos and don'ts of working on an HPC](#dos-and-donts-of-working-on-an-hpc)
+ - [Gettting help](#getting-help)
 
-[Link to another page](./another-page.html).
+### What is Linux?
+Linux is an open-source operating system, meaning it's free to use, modify, and share. It’s known for being fast, secure, and reliable, which makes it a popular choice for many bioinformaticians. 
 
-There should be whitespace between paragraphs.
+Linux is especially useful for tasks that require high performance, such as handling large amounts of data or running complex analyses. It offers a powerful command-line interface, which allows users to automate tasks, work with scripts, and manage data more efficiently. Because it supports a wide range of software, developers and researchers can easily install and use tools for their work.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Overall, Linux is a great choice for anyone who needs a stable, flexible, and cost-effective operating system, especially for technical tasks and programming.
 
-# Header 1
+### Linux installation
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+#### Windows
 
-## Header 2
+#### Mac
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+### Basic introduction to Linux
+Code examples can be added like this: 
+```
+ls -ls
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Installing tools
 
-#### Header 4
+### Accessing High Performance Computing (HPC) facilities
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Links to other papges can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
 
-##### Header 5
+### Using SLURM
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### Dos and don'ts of working on an HPC
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+### Gettting help
