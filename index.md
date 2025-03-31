@@ -10,9 +10,9 @@ This guide is intended to introduce researchers and students at the Natural Hist
 
  - [What is Linux?](#what-is-linux)
  - [Linux Installation](#linux-installation)
- - [Basic introduction to Linux](#basic-introduction-to-linux)
    - [Windows](#windows)
    - [Mac](#mac)
+ - [Basic introduction to Linux](#basic-introduction-to-linux)
  - [Installing tools](#installing-tools)
  - [Accessing High Performance Computing (HPC) facilities](#accessing-high-performance-computing-hpc-facilities)
  - [Using SLURM](#using-slurm)
@@ -63,6 +63,19 @@ Mac comes with a built-in terminal application that allows access to a Unix-base
 You can find it by clicking on the Spotlight search icon (top-right corner) and typing "Terminal". Alternatively, navigate to Applications > Utilities > Terminal.
 
 ### Basic introduction to Linux
+
+Now you have a Linux installed, you are ready to get started. 
+
+With a Linux terminal, sometimes called a _command prompt_ or _console_, you interact with you computer using only text entered via the keyboard. 
+
+The majority of tools used in bioinformatics are designed to only work on the command line so it is important to understand how it works. 
+
+A linux terminal lets the user interact with an application called the _shell_, which translates text into command that the computer can understand. We will focus on the most commonly used shell _BASH_. 
+
+There are hundreds of different commands in BASH, but don't worry, you only need a handful of commands to get started. Generally, commands follow the format below:
+
+![Command morphology](images/command_morphology.png)
+
 Code examples can be added like this: 
 ```
 ls -ls
@@ -71,6 +84,16 @@ ls -ls
 ### Installing tools
 
 ### Accessing High Performance Computing (HPC) facilities
+
+Researchers at the NHM have access to two different HPC facilities: the *NHM HPC* and *Crop Diversity HPC*. Instructions for accessing both of these can be found below.
+
+#### NHM HPC
+
+
+
+#### Crop Diversity
+
+
 
 Links to other papges can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
 
