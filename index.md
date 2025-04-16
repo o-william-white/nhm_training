@@ -101,4 +101,4 @@ Links to other papges can be added like this [Crop Diversity](https://help.cropd
 
 ### Dos and don'ts of working on an HPC
 
-### Gettting help
+### Getting help
