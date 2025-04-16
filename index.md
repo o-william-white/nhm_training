@@ -82,6 +82,8 @@ Code examples can be added like this:
 ```
 ls -ls
 ```
+
+
 ### Useful Linux commands
 | Command | Use |
 | ------- | --- |
@@ -92,6 +94,9 @@ ls -ls
 | cd ~    | Return to home directory (i.e. /home/[your_username] |
 | [TAB]   | auto-complete |
 | head  <filename>  | Show the ‘head’ (i.e. top) of a particular file |
+
+- Also see [explainshell.com](https://explainshell.com/)
+
 
 ### Installing tools
 
@@ -104,7 +109,8 @@ Researchers at the NHM have access to two different HPC facilities: the *NHM HPC
 
 
 #### Crop Diversity
-
+- First, you'll need to [request an account to the Crop Diversity cluster](https://help.cropdiversity.ac.uk/user-accounts.html).
+- 
 
 
 Links to other pages can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
