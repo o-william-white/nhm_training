@@ -4,7 +4,9 @@ layout: default
 
 # NHM Linux training
 
-This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analayses or work on the High Performatnce Computing facilities more effienctly.
+This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analyses or work on the High Performance Computing facilities more efficiently. 
+
+### Contributors
 
 ### Contents
 
@@ -64,9 +66,9 @@ You can find it by clicking on the Spotlight search icon (top-right corner) and 
 
 ### Basic introduction to Linux
 
-Now you have a Linux installed, you are ready to get started. 
+Now that you have Linux installed, you are ready to get started. 
 
-With a Linux terminal, sometimes called a _command prompt_ or _console_, you interact with you computer using only text entered via the keyboard. 
+With a Linux terminal, sometimes called a _command prompt_ or _console_, you interact with your computer using only text entered via the keyboard. 
 
 The majority of tools used in bioinformatics are designed to only work on the command line so it is important to understand how it works. 
 
@@ -105,7 +107,7 @@ Researchers at the NHM have access to two different HPC facilities: the *NHM HPC
 
 
 
-Links to other papges can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
+Links to other pages can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
 
 ### Using SLURM
 
@@ -115,4 +117,5 @@ Links to other papges can be added like this [Crop Diversity](https://help.cropd
 - Ideally, use 'scratch space' (`gpfs/nhmfsa/bulk/share/data/mbl/share/scratch/`) for storing your outputs/results. Remember 'scratch space' is not backed up, so transfer any valuable results to your 'groups' directory (`gpfs/nhmfsa/bulk/share/data/mbl/share/workspaces/groups`).
 - Don't store large datasets or databases in your `home/` directory. Generally, software (such as your miniconda installation) should be stored here.
 
-### Getting help
+
+### Gettting help
