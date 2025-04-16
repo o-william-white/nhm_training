@@ -100,5 +100,7 @@ Links to other papges can be added like this [Crop Diversity](https://help.cropd
 ### Using SLURM
 
 ### Dos and don'ts of working on an HPC
+- Be mindful of how much memory and how many CPUs you are requesting for a job. You can check resource usage of a job using the `sacct` SLURM command.
+- 
 
 ### Getting help
