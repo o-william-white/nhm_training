@@ -6,6 +6,8 @@ layout: default
 
 This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analayses or work on the High Performatnce Computing facilities more effienctly.
 
+### Contributors
+
 ### Contents
 
  - [What is Linux?](#what-is-linux)
@@ -101,4 +103,4 @@ Links to other papges can be added like this [Crop Diversity](https://help.cropd
 
 ### Dos and don'ts of working on an HPC
 
-### Getting help
+### Gettting help
