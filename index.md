@@ -6,7 +6,7 @@ nav_order: 1
 
 # NHM Linux training
 
-This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analayses or work on the High Performatnce Computing facilities more effienctly.
+This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analyses or work on the High Performance Computing facilities more efficiently. 
 
 ### Contributors
 
@@ -63,9 +63,9 @@ You can find it by clicking on the Spotlight search icon (top-right corner) and 
 
 ### Basic introduction to Linux
 
-Now you have a Linux installed, you are ready to get started. 
+Now that you have Linux installed, you are ready to get started. 
 
-With a Linux terminal, sometimes called a _command prompt_ or _console_, you interact with you computer using only text entered via the keyboard. 
+With a Linux terminal, sometimes called a _command prompt_ or _console_, you interact with your computer using only text entered via the keyboard. 
 
 The majority of tools used in bioinformatics are designed to only work on the command line so it is important to understand how it works. 
 
@@ -80,6 +80,21 @@ Code examples can be added like this:
 ls -ls
 ```
 
+
+### Useful Linux commands
+| Command | Use |
+| ------- | --- |
+| pwd     | Print working directory (i.e. the directory you are ‘in’) |
+| cd <directory/name>   | change directory |
+| cd ..   | Return to previous directory/move 'back' a directory |
+| cd -    | Return to the last directory path you were in |
+| cd ~    | Return to home directory (i.e. /home/[your_username] |
+| [TAB]   | auto-complete |
+| head  <filename>  | Show the ‘head’ (i.e. top) of a particular file |
+
+- Also see [explainshell.com](https://explainshell.com/)
+
+
 ### Installing tools
 
 ### Accessing High Performance Computing (HPC) facilities
@@ -91,13 +106,22 @@ Researchers at the NHM have access to two different HPC facilities: the *NHM HPC
 
 
 #### Crop Diversity
+- First, you'll need to [request an account to the Crop Diversity cluster](https://help.cropdiversity.ac.uk/user-accounts.html).
+- Next, [get connected](https://help.cropdiversity.ac.uk/ssh.html) to the Crop Diversity HPC cluster (called gruffalo) using terminal- or graphical-based methods, including MobaXterm, WSL (Windows 10+ only), Cygwin/mintty or PuTTY.
+ - If you are on site in [supported institution](https://help.cropdiversity.ac.uk/organizations.html) (or are using your institutions VPN) then you can connect directly using your password, either via the [terminal](https://help.cropdiversity.ac.uk/ssh-terminal-pw.html) or a [graphical client](https://help.cropdiversity.ac.uk/ssh-graphical-pw.html) using your password.
+ - Otherwise if you are off-site, you must use key authentication using an `ssh` key pair and 2FA, either via the [terminal](https://help.cropdiversity.ac.uk/ssh-terminal-keys.html) or a [graphical client](https://help.cropdiversity.ac.uk/ssh-graphical-keys.html).
+ - **TBC**
 
 
-
-Links to other papges can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
+Links to other pages can be added like this [Crop Diversity](https://help.cropdiversity.ac.uk/).
 
 ### Using SLURM
 
 ### Dos and don'ts of working on an HPC
+- Be mindful of how much memory and how many CPUs you are requesting for a job. You can check resource usage of a job using the `sacct` SLURM command, and alter your memory and CPU requests for future runs accordingly.
+- Don't run any code/scripts that are too computaitonally intensive, or which run longer than a few minutes, on the head node (i.e. directly on the terminal).
+- Ideally, use 'scratch space' (`gpfs/nhmfsa/bulk/share/data/mbl/share/scratch/`) for storing your outputs/results. Remember 'scratch space' is not backed up, so transfer any valuable results to your 'groups' directory (`gpfs/nhmfsa/bulk/share/data/mbl/share/workspaces/groups`).
+- Don't store large datasets or databases in your `home/` directory. Generally, software (such as your miniconda installation) should be stored here.
+
 
 ### Gettting help
