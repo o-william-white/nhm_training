@@ -1,5 +1,6 @@
 ---
 title: Introduction to Linux
+layout: default
 nav_order: 2
 ---
 
