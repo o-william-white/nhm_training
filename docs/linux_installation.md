@@ -26,11 +26,11 @@ wsl
 
 It should look like this:
 
-![Open wsl](images/open_wsl.png)
+![Open wsl](../images/open_wsl.png)
 
 Windows also comes with an application called Terminal, which allows you to select an Ubuntu terminal.
 
-![Open ubuntu](images/open_ubuntu.png)
+![Open ubuntu](../images/open_ubuntu.png)
 
 #### Mac
 
