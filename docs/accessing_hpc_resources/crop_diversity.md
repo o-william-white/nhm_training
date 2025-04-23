@@ -1,5 +1,6 @@
 ---
 title: Crop Diversity
+layout: default
 parent: Accessing HPC resources
 nav_order: 3
 ---
