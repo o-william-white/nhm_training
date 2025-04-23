@@ -23,7 +23,7 @@ A linux terminal lets the user interact with an application called the _shell_, 
 
 There are hundreds of different commands in BASH, but don't worry, you only need a handful of commands to get started. Generally, commands follow the format below:
 
-![Command morphology](images/command_morphology.png)
+![Command morphology](../images/command_morphology.png)
 
 Code examples can be added like this: 
 ```
@@ -42,3 +42,4 @@ ls -ls
 | head  <filename>  | Show the ‘head’ (i.e. top) of a particular file |
 
 - Also see [explainshell.com](https://explainshell.com/)
+
