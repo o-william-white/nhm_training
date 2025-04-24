@@ -35,7 +35,7 @@ Windows also comes with an application called Terminal, which allows you to sele
 
 ![Open ubuntu](../images/open_ubuntu.png)
 
-#### Mac
+### Mac
 
 Mac comes with a built-in terminal application that allows access to a Unix-based shell which is very similar to Linux. 
 
