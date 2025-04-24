@@ -6,7 +6,7 @@ nav_order: 1
 
 ![NHM logo](images/nhm_logo.png)
 
-# NHM Linux training
+# NHM Bioinformatics
 {: .fs-9 }
 
 This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analyses or work on the High Performance Computing facilities more efficiently.
