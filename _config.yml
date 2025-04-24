@@ -5,9 +5,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://o-william-white.github.io/nhm_training" # the base hostname & protocol for your site, e.g. http://example.com
 repository: o-william-white/nhm_training # for github-metadata
 
-
-url: https://just-the-docs.github.io
-
 plugins:
   - jekyll-github-metadata
 
