@@ -4,9 +4,12 @@ layout: default
 nav_order: 2
 ---
 
-#### Windows
+Installing Linux on your own computer is a great way to access and start learning Linux. Here are some simple ways to access a Linux terminal on Windows and Mac. 
+{: .fs-6 .fw-300 }
 
-To access a Linux terminal on Windows, we can use Windows Subsystem for Linux (WSL). It allows you to run a Linux distribution directly on your Windows machine.
+### Windows
+
+To access a Linux terminal on Windows, we can use Windows Subsystem for Linux (WSL). It allows you to run a Linux distribution directly on Windows.
 
 Open PowerShell (search for "PowerShell" in the Start menu). _Note if you are on a museum laptop, you will need to open PowerShell as an Administrator_ (search for "PowerShell" in the Start menu, right-click, and select "Run as administrator").
 
@@ -24,7 +27,7 @@ To open a Linux terminal, open Powershell and run the following command:
 wsl
 ```
 
-It should look like this:
+You should now have a terminal which looks like this:
 
 ![Open wsl](../images/open_wsl.png)
 
