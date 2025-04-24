@@ -1,7 +1,7 @@
 ---
 title: Accessing HPC resources
 layout: default
-nav_order: 1
+nav_order: 4
 ---
 
 Insert text here about each HPC, which might be right for each user. 
