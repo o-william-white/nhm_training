@@ -1276,4 +1276,4 @@ If you feel adventurous and want to learn more advanced topics related to the cl
 - Learn more about environment modules with [Lmod](https://lmod.readthedocs.io/en/latest/#introduction-to-lmod).
 - [Singularity/Apptainer](https://apptainer.org/documentation), a nice option to create containerized environments.
 - [Conda](https://docs.conda.io/en/latest), a very popular open-source package management and environment management system.
-- [Snakemake](https://snakemake.readthedocs.io/en/stable), Python-inspired workflow/pipeline management system to create reproducible and scalable data, creating contained environments that you can later deploy and execute in systems with different configurations. 
+- [Snakemake](https://snakemake.readthedocs.io/en/stable), Python-inspired workflow/pipeline management system to create reproducible and scalable data, creating contained environments that you can later deploy and execute in systems with different configurations.
