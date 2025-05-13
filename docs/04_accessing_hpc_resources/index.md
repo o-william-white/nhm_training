@@ -9,6 +9,7 @@ There are three main options for accessing HPC resources at the NHM. Each resour
 
 ### Franklin and Sanger
 
+{: .highlight }
 [Franklin and Sanger](http://pgfsites.s3-website-eu-west-1.amazonaws.com/H21/franklin.html) are are compute servers for research at the NHM, part of the molecular biology computing facility. 
 
 They are used mainly for phylogenetics, sequence database searching, and molecular sequence analysis. It is set up to be flexible and interactive. **An important consideration is that these servers do not use a job schedular (i.e. SLURM)**. 
