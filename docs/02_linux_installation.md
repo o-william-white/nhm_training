@@ -40,3 +40,5 @@ Windows also comes with an application called Terminal, which allows you to sele
 Mac comes with a built-in terminal application that allows access to a Unix-based shell which is very similar to Linux. 
 
 You can find it by clicking on the Spotlight search icon (top-right corner) and typing "Terminal". Alternatively, navigate to Applications > Utilities > Terminal.
+
+![Mac terminal](../images/mac_terminal.png)

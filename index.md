@@ -9,12 +9,12 @@ nav_order: 1
 # NHM Bioinformatics
 {: .fs-9 }
 
-This guide is intended to introduce researchers and students at the Natural History Museum to Linux so they can run their own analyses or work on the High Performance Computing facilities more efficiently.
+This guide is for researchers and students at the Natural History Museum who would like to use Linux and High Performance Computing facilities for their research.
 {: .fs-6 .fw-300 }
 
 ### Contributing
 
-If you would like to contibute to the training material, please see the github repository for this page.
+If you would like to contribute tutorial or training material to this page, please see the github repository which has instructions on how to contribute.
 
 [Link to Github](https://github.com/o-william-white/nhm_training){: .btn }
 
